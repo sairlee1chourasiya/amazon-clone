@@ -1,0 +1,156 @@
+*{
+
+   margin: 0%; 
+   padding: 0%;
+   box-sizing: border-box;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+
+#main{
+
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+    
+}
+#header{
+    height: 10%;
+    width: 100%;
+    background-color: rgb(40, 107, 107);
+    position: fixed;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+
+
+
+}
+#logo{
+
+    height: 100px;
+    width: 100px;
+    margin-top: 30px;
+    
+   
+
+}
+logo img{
+
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    align-items: center;
+}
+
+.texts{
+    color: rgb(14, 14, 84);
+   
+    display: flex;
+    font-size: larger;
+    font-weight: normal;
+}
+
+.texts:hover{
+
+    background-color: lightblue;
+}
+    
+
+
+
+
+
+#contactdetails{
+
+    
+    
+    font-weight: lighter;
+}
+
+
+.icon{
+
+    padding: 10px;
+   
+    border-radius: 50%;
+
+    
+
+}
+.icon:hover{
+    background-color: lightblue;
+}
+
+#loginid{
+
+display: flex;
+padding: 10px;
+   
+    border-radius: 20%;
+   
+    
+
+
+
+}
+
+#loginid:hover{
+    background-color: lightblue;
+
+
+}
+
+#try{
+
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+}
+
+
+#try:hover{
+
+    background-color: rgb(131, 235, 131);
+}
+#feckheader{
+    height: 10%;
+    width: 100%;
+
+
+}
+
+#page1{
+
+    height: 90%;
+    width: 100%;
+    background-color:sienna;
+}
+
+#page2{
+
+    height: 90%;
+    width: 100%;
+    background-color: khaki;
+}
+
+
+.part1{
+    background-image: url(https://wp.sfdcdigital.com/en-ap/wp-content/uploads/sites/14/2024/02/php-marquee-starter-lg-bg.jpg?resize=2048,640);
+     height: 90%;
+     width: 100%;
+    position: absolute;
+    object-fit: contain;
+    align-items: center;
+}
+
+.part1 p{
+    font-size: larger;
+    margin-top: 10px;
+}
+
